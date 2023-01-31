@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Gemunu Libre', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -106,16 +106,20 @@ hr {
   text-align: left;
 }
 
-.csharp {
+.skill-right {
   width: 25%;
   float: right;
   margin-left: 30px;
+  transform: scale(1);
+  position: relative;
+    
 }
 
-.computer {
-  width: 25%;
+.skill-left {
+  width: 20%;
   float: left;
   margin-right: 30px;
+  transform: scale(1.2);
 }
 
 .btn {
@@ -128,7 +132,7 @@ hr {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
-  font-family: Courier New;
+  /* font-family: Courier New; */
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
